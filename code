@@ -25,5 +25,20 @@ int main()
 
     printf("\nEl promedio del estudiante es de: %.2f", promedio);
 
+
+//16
+    int i, numero;
+
+    printf("Ingrese el numero: \n");
+    scanf("%d", &numero);
+
+    printf("\nTabla del numero: %d", numero);
+    for (i=0;i<10;i++){
+
+        printf("\n%d x %d = %d", numero, i+1, (i+1)*numero);
+
+    }
+
+
     return 0;
 }
